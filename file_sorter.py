@@ -26,7 +26,7 @@ def search_folders(path):
 				if not os.path.exists(path + 'PDF'):
 					os.makedirs(path + 'PDF')
 				os.rename(path + filename, path +'PDF/'+ filename)
-			#for moving audios
+			#for moving videos
 			elif '.mp4' in filename or '.mp4' in filename or '.flv' in filename or '.wmv' in filename:
 				if not os.path.exists(path + 'Videos'):
 					os.makedirs(path + 'Videos')
