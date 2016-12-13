@@ -1,2 +1,2 @@
 # file-sorter
-Sort all files in a directory and moves them into a new sub-directory of respective type.
+A python program to categorize files in a directory on the basis of genres.
